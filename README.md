@@ -1,57 +1,114 @@
-# Angular-Getting Started
-Materials for the ["Angular: Getting Started"](http://bit.ly/Angular-GettingStarted) course on Pluralsight.
+<p align="center">
+  <a href="" rel="noopener">
+ <img width=200px height=200px src="https://i.imgur.com/6wj0hh6.jpg" alt="Project logo"></a>
+</p>
 
-`APM-Start`: The starter files set up for use in VSCode, WebStorm, or other editors. **Use this to code along with the course**. (Updated for <i>Angular version 10 or higher</i>)
+<h3 align="center">Project Title</h3>
 
-`APM-Final`: The completed files. Use this to see the completed solution from the course. (Updated for <i>Angular version 10 or higher</i>)
+<div align="center">
 
-See the `README.md` file under each folder for details on installing and running the application.
+[![Status](https://img.shields.io/badge/status-active-success.svg)]()
+[![GitHub Issues](https://img.shields.io/github/issues/kylelobo/The-Documentation-Compendium.svg)](https://github.com/kylelobo/The-Documentation-Compendium/issues)
+[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/kylelobo/The-Documentation-Compendium.svg)](https://github.com/kylelobo/The-Documentation-Compendium/pulls)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
 
-If you have any problems installing or running this code, please see the ["Angular: Getting Started Problem Solver"](http://blogs.msmvps.com/deborahk/angular-2-getting-started-problem-solver/)
+</div>
 
-If that does not resolve your issue, please post to the [discussion board for the course](https://app.pluralsight.com/library/courses/angular-2-getting-started-update/discussion)
+---
 
-NOTE: The installation was tested using node v12.16.1 and npm 6.13.4.
+<p align="center"> Few lines describing your project.
+    <br> 
+</p>
 
-## INSTALLING THE CODE
+## 📝 Table of Contents
 
-The following are detailed instructions for installing the code so you can code along with the course.
+- [About](#about)
+- [Getting Started](#getting_started)
+- [Deployment](#deployment)
+- [Usage](#usage)
+- [Built Using](#built_using)
+- [TODO](../TODO.md)
+- [Contributing](../CONTRIBUTING.md)
+- [Authors](#authors)
+- [Acknowledgments](#acknowledgement)
 
-0) Ensure you have node installed.
+## 🧐 About <a name = "about"></a>
 
-   At a command prompt, type `node -v` to ensure you have version `10.16.0` or higher before proceeding.
+Write about 1-2 paragraphs describing the purpose of your project.
 
-1) Download or clone the code from this repository.
+## 🏁 Getting Started <a name = "getting_started"></a>
 
-   If you download as a zip file, be sure to unzip it.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See [deployment](#deployment) for notes on how to deploy the project on a live system.
 
-2) Navigate to the APM-Start folder (or APM folder if you renamed it).
+### Prerequisites
 
-   There should be a package.json file in this folder.
+What things you need to install the software and how to install them.
 
-3) In a command window (or the Command prompt in VS Code), type `npm install`.
+```
+Give examples
+```
 
-   This creates a node_modules folder and installs all packages from the package.json file into that folder. You may see a few warnings during this process, but you should not see any errors.
-   
-4) In the same command window (or the Command property in VS Code), type `npm start`.
+### Installing
 
-   The application should then compile and launch in your default browser.
-   
-If these steps don't work for you, see STACKBLITZ below.
+A step by step series of examples that tell you how to get a development env running.
 
-## STACKBLITZ
+Say what the step will be
 
-If you want to work through the course without downloading npm or any of the libraries, try the course with Stackblitz by following this link: https://stackblitz.com/github/DeborahK/Angular-GettingStarted/tree/master/APM-Start
+```
+Give the example
+```
 
-Stackblitz does not support reading json files from a folder defined in the angular.json file. Rather, you need to copy the products folder from the api folder to the assets folder. Then modify the productUrl to look in the assets folder: private productUrl = 'assets/products/products.json';
+And repeat
 
-To install packages in Stackblitz, such as bootstrap and font-awesome, you need to use the DEPENDENCIES branch in the Project hierarchy to the left of the code in Stackblitz:
-1) Open the DEPENDENCIES node. (You should see the list of existing dependencies such as @angular/common
-2) Below the list of dependencies is an input box with the text "enter package name"
-3) Enter bootstrap there and press enter.
-4) If it asks you to install missing dependencies, click "INSTALL MISSING DEPENDENCIES"
-5) Repeat step 3 with font-awesome
+```
+until finished
+```
 
-Stackblitz does not seem to recognize the Font Awesome icons. So you will instead see portions of squares.
+End with an example of getting some data out of the system or using it for a little demo.
 
-Stackbliz has the Angular CLI commands built in. Instead of installing the Angular CLI to your system, right-click on a folder in Stackblitz and you'll see an "Angular Generator" option. Under that menu you'll find the Angular CLI commands.
+## 🔧 Running the tests <a name = "tests"></a>
+
+Explain how to run the automated tests for this system.
+
+### Break down into end to end tests
+
+Explain what these tests test and why
+
+```
+Give an example
+```
+
+### And coding style tests
+
+Explain what these tests test and why
+
+```
+Give an example
+```
+
+## 🎈 Usage <a name="usage"></a>
+
+Add notes about how to use the system.
+
+## 🚀 Deployment <a name = "deployment"></a>
+
+Add additional notes about how to deploy this on a live system.
+
+## ⛏️ Built Using <a name = "built_using"></a>
+
+- [MongoDB](https://www.mongodb.com/) - Database
+- [Express](https://expressjs.com/) - Server Framework
+- [VueJs](https://vuejs.org/) - Web Framework
+- [NodeJs](https://nodejs.org/en/) - Server Environment
+
+## ✍️ Authors <a name = "authors"></a>
+
+- [@kylelobo](https://github.com/kylelobo) - Idea & Initial work
+
+See also the list of [contributors](https://github.com/kylelobo/The-Documentation-Compendium/contributors) who participated in this project.
+
+## 🎉 Acknowledgements <a name = "acknowledgement"></a>
+
+- Hat tip to anyone whose code was used
+- Inspiration
+- References

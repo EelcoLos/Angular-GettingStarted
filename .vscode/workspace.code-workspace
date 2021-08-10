@@ -1,0 +1,17 @@
+{
+  "folders": [
+    {
+      "path": "..",
+      "name": "root"
+    },
+    {
+      "path": "..\\APM-Start",
+      "name": "APM-Start"
+    },
+    {
+      "path": "..\\APM-Final",
+      "name": "APM-Final"
+    }
+  ],
+  "settings": {}
+}
